@@ -1,0 +1,76 @@
+.header {
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 20px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.header .contents {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header .contents:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .contents a, .header .contents div {
+    float: right;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.header .contents a:hover {
+    text-decoration: none;
+}
+
+.header .contents img {
+    width: 27px;
+    height: 27px;
+    margin: 0 7px 3px;
+}
+
+.header .contents img + p {
+    width: 40px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.header .contents img:hover + p, .header .contents img + p:hover {
+    text-decoration: underline;
+}
+
+.header .contents ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .contents ul li {
+    float: left;
+    line-height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    background: linear-gradient(180deg,#ff9a8b,#ff6a88 55%,#ff99ac);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .header .contents ul {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .header .contents ul li {
+        padding: 0 8px;
+    }
+}

@@ -1,0 +1,73 @@
+.login-container {
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login-form > h1 {
+    width: 200px;
+    line-height: 200px;
+    margin: 0 auto 30px;
+    background: linear-gradient(180deg,#ff9a8b,#ff6a88 55%,#ff99ac);
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+}
+
+.login-form > img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.login-form > div {
+    margin: 5px 0;
+}
+
+.login-span {
+    display: inline-block;
+    width: 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.login-form input {
+    width: calc(100% - 50px);
+    line-height: 30px;
+    padding: 0 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.login-form input[type=button] {
+    width: calc(50% - 5px);
+    margin-top: 20px;
+    background: #dfc876;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Jua', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form input[type=button]:last-child {
+    margin-left: 10px;
+    background: #696557;
+}
+
+.login-guest {
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-guest span {
+    text-decoration: underline;
+}

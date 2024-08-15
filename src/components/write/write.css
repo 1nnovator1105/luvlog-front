@@ -1,0 +1,51 @@
+.titleBox {
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.titleBox + div {
+    min-height: 500px;
+    background: #fff;
+}
+
+.checkBox {
+    margin-top: 15px;
+}
+
+.checkBox input[type="checkbox"] {
+    display: none;
+}
+
+.checkBox input[type="checkbox"] + label {
+    line-height: 20px;
+    color: lightgray;
+}
+
+.checkBox input[type="checkbox"]:checked + label {
+    color: #DFC876;
+}
+
+.checkBox input[type="checkbox"] + label img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.saveBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 30px;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+}

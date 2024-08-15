@@ -1,0 +1,49 @@
+html:after {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0093E9;
+  background-image: linear-gradient(0, #0093E9 0%, #80D0C7 100%);
+}
+
+.react-confirm-alert-body {
+  max-width: calc(100vw - 80px);
+}
+
+.top-scroll-btn {
+  cursor: pointer;
+  position: fixed;
+  right: 80px;
+  bottom: 40px;
+  /* color: #5656569e; */
+}
+
+@media (max-width: 1024px) {
+  .top-scroll-btn {
+    right: 15px;
+    bottom: 30px;
+  }
+}
+
+.hidden-video {
+  cursor: pointer;
+}
+
+.hidden-video:hover {
+  text-decoration: underline;
+}
+
+.hiddenVideoDiv {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+}
