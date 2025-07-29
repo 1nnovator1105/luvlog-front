@@ -10,7 +10,8 @@
       "Bash(npm cache clean:*)",
       "Bash(corepack enable)",
       "Bash(corepack prepare:*)",
-      "Bash(yarn build)"
+      "Bash(yarn build)",
+      "Bash(yarn start)"
     ],
     "deny": []
   }
