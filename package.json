@@ -56,5 +56,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://luvlog.xyz/"
+  "packageManager": "yarn@4.9.2"
 }
