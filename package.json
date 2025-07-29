@@ -16,7 +16,9 @@
     "@toast-ui/editor-plugin-table-merged-cell": "^1.3.2",
     "@toast-ui/editor-plugin-uml": "^1.0.0",
     "@toast-ui/react-editor": "^2.5.1",
+    "add": "^2.0.6",
     "axios": "^0.21.1",
+    "eve": "git://github.com/adobe-webplatform/eve.git#eef80ed8d188423c2272746fb8ae5cc8dad84cb1",
     "global": "^4.4.0",
     "highlight.js": "^11.10.0",
     "moment": "^2.29.1",
@@ -29,8 +31,10 @@
     "react-router-dom": "^5.2.0",
     "react-script": "^2.0.5",
     "react-scripts": "^5.0.1",
+    "tui-editor": "^1.4.10",
     "video-react": "^0.14.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
