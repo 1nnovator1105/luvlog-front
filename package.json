@@ -18,7 +18,6 @@
     "@toast-ui/react-editor": "^2.5.1",
     "add": "^2.0.6",
     "axios": "^0.21.1",
-    "eve": "git://github.com/adobe-webplatform/eve.git#eef80ed8d188423c2272746fb8ae5cc8dad84cb1",
     "global": "^4.4.0",
     "highlight.js": "^11.10.0",
     "moment": "^2.29.1",
