@@ -5,8 +5,6 @@ import "@toast-ui/editor/dist/toastui-editor.css";
 import axios from "axios";
 
 import { Editor } from "@toast-ui/react-editor";
-import chart from "@toast-ui/editor-plugin-chart";
-import "tui-chart/dist/tui-chart.css";
 import codeSyntaxHighlight from "@toast-ui/editor-plugin-code-syntax-highlight";
 import "highlight.js/styles/github.css";
 import colorSyntax from "@toast-ui/editor-plugin-color-syntax";
@@ -129,13 +127,7 @@ function Write(prop) {
           previewStyle="vertical"
           height="calc(100vh - 300px)"
           initialEditType="wysiwyg"
-          plugins={[
-            chart,
-            codeSyntaxHighlight,
-            colorSyntax,
-            tableMergedCell,
-            uml,
-          ]}
+          plugins={[codeSyntaxHighlight, colorSyntax, tableMergedCell, uml]}
           useCommandShortcut={true}
           usageStatistics={false}
           ref={editorRef}
